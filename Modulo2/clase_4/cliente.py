@@ -9,7 +9,7 @@ class Cliente(Usuario):
     # Constructor
 
     def __init__(self, nombre, correo, contrasena, tipo_cliente):
-            super().__init__(nombre, correo, contrasena)
+            super().__init__(nombre, correo, tipo_cliente)
             self.tipo_cliente = tipo_cliente
 
     # Metodos
